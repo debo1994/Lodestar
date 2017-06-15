@@ -1,0 +1,42 @@
+<resources>
+    <string name="app_name">Lodestar</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+
+    <!--What we Do Fragment String values-->
+    <string name="next">NEXT</string>
+    <string name="skip">SKIP</string>
+    <string name="finished">FINISHED</string>
+
+    <string name="slide_1_title">A scientific approach</string>
+    <string name="slide_1_desc">Scientific tests and a complex algorithm to uncover a child\'s true potential and match their passion and strengths to the right career and education path.</string>
+
+    <string name="slide_2_title">Exploring 250+ career options</string>
+    <string name="slide_2_desc">All researched and converted into guide books validated by industry practitioners.</string>
+
+    <string name="slide_3_title">Authentic data</string>
+    <string name="slide_3_desc">On 200+ colleges, 100+ exams, 100+ special courses, and 15 of India\'s best tutorials.</string>
+
+    <string name="slide_4_title">Individual attention</string>
+    <string name="slide_4_desc">Every child gets 3 one-to-one sessions to find a true career path.</string>
+
+    <string name="slide_5_title">End-to-end decisions</string>
+    <string name="slide_5_desc">From career, stream and electives to exams, tutorials and college.</string>
+
+    <!--Lodestar Way String values-->
+    <string name="lodestar_way_heading">Here\'s how it works</string>
+    <string name="lodestar_way_body">Scenario: Suppose, a child expresses interest in clothing and fashion. The traditional career route is considered to be fashion design. However, there are many more career options available – with each of them requiring a unique education pathway. Let’s explore this example in detail:</string>
+    <string name="loadstar_way_button_discover">01: Discover</string>
+    <string name="lodestar_way_button_determine">02: Determine</string>
+    <string name="lodestar_way_button_decide">03: Decide</string>
+    <string name="lodestar_way_discover">Hold on! Interest in clothing and fashion could mean: \n\nFASHION TECHNOLOGY
+                                            \nFASHION DESIGN \nTEXTILE ENGINEERING \nFASHION BUSINESS MANAGEMENT</string>
+    <string name="lodestar_way_determine">FASHION TECHNOLOGY\n(Requires science and clearing the NIFT Aptitude Test)\n\nFASHION DESIGN                                              \n(Requires Arts and clearing Design Aptitude Test to enter institutes like NID)\n\nTEXTILE                                              ENGINEERING\n(Requires Science and clearing CET)\n\nFASHION BUSINESS MANAGEMENT\n(Requires for                                           commerce and training for MBA)</string>
+    <string name="lodestar_way_decide">After considering mutiple criteria, we can now help parent and children decide\n\nOCCUPATION: Fashion Technologist\n\nSTREAM AND ELECTIVE: Science with Maths\n\nEXAM: NIFT Aptitute Test\n\nINSTITUTE:NIFT\n\nTUTORIAL:Arkin</string>
+    <string name="textview_sign_up">Sign Up</string>
+    <string name="textview_forgot_password">Forgot password?</string>
+
+</resources>

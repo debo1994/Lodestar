@@ -1,0 +1,32 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="nav_header_vertical_spacing">16dp</dimen>
+    <dimen name="nav_header_height">160dp</dimen>
+    <dimen name="fab_margin">16dp</dimen>
+
+    <!--What We Do Fragment-->
+    <dimen name="dots_height">30dp</dimen>
+    <dimen name="dots_margin_bottom">20dp</dimen>
+    <dimen name="img_width_height">120dp</dimen>
+    <dimen name="slide_title">30dp</dimen>
+    <dimen name="slide_desc">16dp</dimen>
+    <dimen name="desc_padding">40dp</dimen>
+    <dimen name="margin_imageview_slides">8dp</dimen>
+    <dimen name="margin_textview_slides">20dp</dimen>
+
+    <!--LodestarWay Fragment-->
+    <dimen name="lodestar_way_title_padding">5dp</dimen>
+    <dimen name="margin_top_button_lodestar_way">5dp</dimen>
+    <dimen name="padding_button_lodestar_way">10dp</dimen>
+    <dimen name="textsize_button_lodestar_way">20sp</dimen>
+    <dimen name="textview_lodestar">14sp</dimen>
+
+    <!--Login Fragment-->
+    <dimen name="imageview_width_login">160dp</dimen>
+    <dimen name="imageview_height_login">90dp</dimen>
+    <dimen name="margin_textview_signup">8dp</dimen>
+    <dimen name="margin_textview_forgot_password">8dp</dimen>
+
+</resources>

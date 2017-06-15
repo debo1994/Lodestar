@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:title="General"
+        android:id="@+id/menu_title_general">
+        <menu>
+            <item
+                android:id="@+id/menu_login"
+                android:title="LOGIN / SIGN UP" />
+        </menu>
+    </item>
+
+    <item
+        android:title="About"
+        android:id="@+id/menu_title_about">
+        <menu>
+            <item
+                android:id="@+id/menu_what_we_do"
+                android:title="WHAT WE DO" />
+            <item
+                android:id="@+id/menu_lodestar_way"
+                android:title="LODESTAR WAY" />
+        </menu>
+    </item>
+
+</menu>

@@ -1,0 +1,104 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimary"
+    tools:context="com.lodestar.demoexample.LodestarWayFragment">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="@dimen/activity_vertical_margin"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/activity_vertical_margin"
+                android:text="@string/lodestar_way_heading"
+                android:textAlignment="center"
+                android:textColor="@android:color/white"
+                android:textSize="34sp" />
+
+            <TextView
+                style="@style/TextViewLodestarWay"
+                android:text="@string/lodestar_way_body" />
+
+            <Button
+                android:id="@+id/discover_button"
+                style="@style/ButtonStyleLodestarWay"
+                android:textAlignment="textStart"
+                android:text="@string/loadstar_way_button_discover"
+                android:background="#A0C855" />
+
+            <net.cachapa.expandablelayout.ExpandableLayout
+                android:id="@+id/discover_layout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#A0C855"
+                android:orientation="vertical"
+                app:el_duration="200"
+                app:el_expanded="false"
+                app:el_parallax="0.5">
+
+                <TextView
+                    style="@style/TextViewLodestarWay"
+                    android:text="@string/lodestar_way_discover"/>
+
+            </net.cachapa.expandablelayout.ExpandableLayout>
+
+            <Button
+                android:id="@+id/determine_button"
+                style="@style/ButtonStyleLodestarWay"
+                android:background="#FFC801"
+                android:text="@string/lodestar_way_button_determine"
+                android:textAlignment="textStart" />
+
+            <net.cachapa.expandablelayout.ExpandableLayout
+                android:id="@+id/determine_layout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#FFC801"
+                android:orientation="vertical"
+                app:el_duration="200"
+                app:el_expanded="false"
+                app:el_parallax="0.5">
+
+                <TextView
+                    style="@style/TextViewLodestarWay"
+                    android:text="@string/lodestar_way_determine" />
+
+            </net.cachapa.expandablelayout.ExpandableLayout>
+
+            <Button
+                android:id="@+id/decide_button"
+                style="@style/ButtonStyleLodestarWay"
+                android:background="#E04A39"
+                android:text="@string/lodestar_way_button_decide"
+                android:textAlignment="textStart" />
+
+            <net.cachapa.expandablelayout.ExpandableLayout
+                android:id="@+id/decide_layout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#E04A39"
+                android:orientation="vertical"
+                app:el_duration="200"
+                app:el_expanded="false"
+                app:el_parallax="0.5">
+
+                <TextView
+                    style="@style/TextViewLodestarWay"
+                    android:text="@string/lodestar_way_decide"/>
+
+            </net.cachapa.expandablelayout.ExpandableLayout>
+
+        </LinearLayout>
+    </ScrollView>
+
+</FrameLayout>
