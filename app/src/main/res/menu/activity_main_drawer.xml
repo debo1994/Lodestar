@@ -7,7 +7,8 @@
         <menu>
             <item
                 android:id="@+id/menu_login"
-                android:title="LOGIN / SIGN UP" />
+                android:title="LOGIN / SIGN UP"
+                android:icon="@drawable/ic_account"/>
         </menu>
     </item>
 
@@ -17,10 +18,12 @@
         <menu>
             <item
                 android:id="@+id/menu_what_we_do"
-                android:title="WHAT WE DO" />
+                android:title="WHAT WE DO"
+                android:icon="@drawable/ic_what_we_do"/>
             <item
                 android:id="@+id/menu_lodestar_way"
-                android:title="LODESTAR WAY" />
+                android:title="LODESTAR WAY"
+                android:icon="@drawable/ic_loadestar_way"/>
         </menu>
     </item>
 
